@@ -18,7 +18,7 @@ const Header = (props: Props) => {
           scale: 1,
         }}
         transition={{
-          duration: 1,
+          duration: 1.2,
         }}
         className="flex flex-row items-center"
       >
@@ -57,7 +57,7 @@ const Header = (props: Props) => {
           scale: 1,
         }}
         transition={{
-          duration: 1,
+          duration: 1.5,
         }}
         className="flex items-center cursor-pointer"
       >
