@@ -20,6 +20,12 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
+      "@components/*": [
+        "./components/*"
+      ],
+      "@sections/*": [
+        "./sections/*"
+      ],
       "@public/*": [
         "./public/*"
       ],

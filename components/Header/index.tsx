@@ -3,7 +3,7 @@ import { SocialIcon } from "react-social-icons";
 
 type Props = {};
 
-export const Header = (props: Props) => {
+const Header = (props: Props) => {
   return (
     <header className="sticky top-0 z-20 flex items-start justify-between p-5 mx-auto max-w-7xl xl:items-center">
       <motion.div
@@ -18,7 +18,7 @@ export const Header = (props: Props) => {
           scale: 1,
         }}
         transition={{
-          duration: 1.5,
+          duration: 1,
         }}
         className="flex flex-row items-center"
       >
@@ -57,7 +57,7 @@ export const Header = (props: Props) => {
           scale: 1,
         }}
         transition={{
-          duration: 1.5,
+          duration: 1,
         }}
         className="flex items-center cursor-pointer"
       >
@@ -69,3 +69,5 @@ export const Header = (props: Props) => {
     </header>
   );
 };
+
+export default Header;
