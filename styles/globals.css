@@ -15,27 +15,6 @@ a {
   box-sizing: border-box;
 }
 
-/* ===== Scrollbar CSS ===== */
-/* Firefox */
-* {
-  scrollbar-width: auto;
-  scrollbar-color: #f7ab0a transparent;
-}
-
-/* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
-  width: 12px;
-}
-
-*::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: #f7ab0a;
-  border-radius: 10px;
-}
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
