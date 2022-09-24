@@ -7,6 +7,7 @@ import Projects from "@sections/Projects";
 import Skills from "@sections/Skills";
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -49,6 +50,18 @@ const Home: NextPage = () => {
       <section id="contact" className="snap-start">
         <Contact />
       </section>
+
+      <Link href="#hero">
+        <footer className="sticky w-full cursor-pointer bottom-5">
+          <div className="flex items-center justify-end px-4">
+            <img
+              className="w-10 h-10 p-1 transition duration-300 ease-in-out rounded-full cursor-pointer filter grayscale hover:grayscale-0"
+              src="/images/mk_yellow_light_bg_notext.png"
+              alt=""
+            />
+          </div>
+        </footer>
+      </Link>
     </div>
   );
 };
